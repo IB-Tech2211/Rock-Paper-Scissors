@@ -1,0 +1,33 @@
+body{
+    background-color: #92A8D1;
+}
+
+/* Game Container ----------- */
+.gameContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20em;
+}
+
+/* Game Choices ----------- */
+.allChoices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+
+.choice{
+    height: 15%;
+    width: 15%;
+    border: solid black 5px;
+    border-radius: 10px;
+}
+
+/* Results ------------ */
+#results{
+    height: 40em;
+    width: 40em;
+    border: solid red 5px;
+}
